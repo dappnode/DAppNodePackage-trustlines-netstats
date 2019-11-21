@@ -17,7 +17,7 @@
     "homepage": "https://trustlines.network",
     "readme": "https://github.com/dappnode/DAppNodePackage-trustlines#readme",
     "netstats": "https://netstats.tlbc.trustlines.foundation",
-    "explorer": "https://blockexplorer.trustlines.foundation/"
+    "explorer": "https://explore.tlbc.trustlines.foundation"
   },
   "repository": {
     "type": "git",

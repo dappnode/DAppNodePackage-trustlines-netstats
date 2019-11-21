@@ -13,7 +13,7 @@
   },
   "validator_status": {
     "type": "environment",
-    "name": "HIDE_VALIDATOR_STATUS"
+    "name": "SHOW_VALIDATOR_STATUS"
   },
   "netstats_enable": {
     "type": "environment",
