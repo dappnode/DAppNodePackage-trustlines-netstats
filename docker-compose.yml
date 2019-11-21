@@ -4,9 +4,9 @@ services:
     image: 'trustlines-netstats.dnp.dappnode.eth:0.1.0'
     build: ./build
     environment:
-      - NETSTATS_ENABLE
+      - NETSTATS_ENABLE=no
       - WS_USER
       - WS_PASSWORD
       - INSTANCE_NAME
-      - SHOW_VALIDATOR_STATUS
+      - SHOW_VALIDATOR_STATUS=no
     restart: on-failure
