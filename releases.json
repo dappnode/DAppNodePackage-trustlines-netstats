@@ -1,10 +1,18 @@
 {
   "0.1.0": {
-    "hash": "/ipfs/QmPX2j2fnCCYLGjPwLFFbCBbMtv8wcuBMxziCpftAaffuZ",
+    "hash": "/ipfs/Qmd2AtE9T6bCq23aezuAmiwfWZ9SvSwF9CS5A26cPJ1U6A",
     "type": "directory",
     "uploadedTo": {
-      "dappnode": "Thu, 21 Nov 2019 14:45:44 GMT"
+      "dappnode": "Thu, 21 Nov 2019 15:05:11 GMT"
     },
     "link": "http://my.dappnode/#/sdk/publish/r=trustlines-netstats.dnp.dappnode.eth&v=0.1.0&h=%2Fipfs%2FQmPX2j2fnCCYLGjPwLFFbCBbMtv8wcuBMxziCpftAaffuZ&d=0xF35960302a07022aBa880DFFaEC2Fdd64d5BF1c1"
+  },
+  "0.1.1": {
+    "hash": "/ipfs/QmRNCEHh7SK2o97UphGaqyaiUkpqg23CYxVNUJNYVWuNne",
+    "type": "directory",
+    "uploadedTo": {
+      "dappnode": "Thu, 21 Nov 2019 15:48:46 GMT"
+    },
+    "link": "http://my.dappnode/#/sdk/publish/r=trustlines-netstats.dnp.dappnode.eth&v=0.1.1&h=%2Fipfs%2FQmRNCEHh7SK2o97UphGaqyaiUkpqg23CYxVNUJNYVWuNne"
   }
 }
