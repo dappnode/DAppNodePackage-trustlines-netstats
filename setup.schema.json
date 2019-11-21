@@ -6,35 +6,56 @@
       "type": "string",
       "title": "Enable netstats",
       "description": "Have you already received your credentials and do you want to set up the netstats client now?",
-      "default": "yes",
-      "enum": [
-        "yes",
-        "no"
-      ]
-    },
-    "username": {
-      "type": "string",
-      "title": "Username",
-      "description": "The user provided by the trustline foundation to connect to netstats"
-    },
-    "password": {
-      "type": "string",
-      "title": "Password",
-      "description": "The password provided by the trustline foundation to connect to netstats"
-    },
-    "instance_name": {
-      "type": "string",
-      "title": "Instance name",
-      "description": "The name you want to use in netstats"
-    },
-    "validator_status": {
-      "type": "string",
-      "title": "Publicly Displayed",
-      "description": "Do you want to be publicly displayed as a validator?",
-      "default": "yes",
-      "enum": [
-        "yes",
-        "no"
+      "default": "no",
+      "enum": ["no", "yes"]
+    }
+  },
+  "required": ["netstats_enable"],
+  "dependencies": {
+    "netstats_enable": {
+      "oneOf": [
+        {
+          "properties": {
+            "netstats_enable": {
+              "enum": ["no"]
+            }
+          }
+        },
+        {
+          "properties": {
+            "netstats_enable": {
+              "enum": ["yes"]
+            },
+            "username": {
+              "type": "string",
+              "title": "Username",
+              "description": "The user provided by the trustline foundation to connect to netstats"
+            },
+            "password": {
+              "type": "string",
+              "title": "Password",
+              "description": "The password provided by the trustline foundation to connect to netstats"
+            },
+            "instance_name": {
+              "type": "string",
+              "title": "Instance name",
+              "description": "The name you want to use in netstats"
+            },
+            "validator_status": {
+              "type": "string",
+              "title": "Publicly Displayed",
+              "description": "Do you want to be publicly displayed as a validator?",
+              "default": "yes",
+              "enum": ["yes", "no"]
+            }
+          },
+          "required": [
+            "username",
+            "password",
+            "instance_name",
+            "validator_status"
+          ]
+        }
       ]
     }
   }

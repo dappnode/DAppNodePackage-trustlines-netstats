@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "upstreamVersion": "release51",
   "shortDescription": "Trustlines netstats",
-  "description": "The netstats client reports the state of your node to the [netstats page](https://netstats.tlbc.trustlines.foundation/) that gives a rough overview of the current network state.\nIt is an optional component which helps the community by providing information on your running node to a central server.\nTo participate, you first need to request credentials managed by the Trustlines Foundation.\nPlease email `netstats@trustlines.foundation` to do so.",
+  "description": "The netstats client reports the state of your node to the [netstats page](https://netstats.tlbc.trustlines.foundation/) which gives a rough overview of the current network state.\n\nIt is an optional component which helps the community by providing information on your running node to a central server.\n\nTo participate, you first need to request credentials managed by the Trustlines Foundation. Please email `netstats@trustlines.foundation` to do so.",
   "type": "service",
   "requirements": {
     "minimumDappnodeVersion": "0.2.19"
@@ -14,8 +14,8 @@
   ],
   "categories": ["Blockchain"],
   "links": {
-    "homepage": "https://github.com/dappnode/DAppNodePackage-trustlines#readme",
-    "trustlines": "https://trustlines.network",
+    "homepage": "https://trustlines.network",
+    "readme": "https://github.com/dappnode/DAppNodePackage-trustlines#readme",
     "netstats": "https://netstats.tlbc.trustlines.foundation",
     "explorer": "https://blockexplorer.trustlines.foundation/"
   },
